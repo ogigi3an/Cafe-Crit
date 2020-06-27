@@ -1,0 +1,17 @@
+site_name: Cafe_Crit.
+
+theme:
+  name: 'material'
+  laguage: 'ja'
+extra:
+  search:
+    language: 'ja'
+
+  nav:
+    - Home:
+      - index.md
+      - pages:
+        - notification:
+          - 'info/notification/master-notification.md'
+          - 'info/notification/manager-notification.md'
+        - 'info/crew-member.md'
